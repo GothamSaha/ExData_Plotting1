@@ -18,7 +18,7 @@ png("plot3.png", width = 480, height = 480)
 
 
 plot(DF2$DateTime,DF2$Sub_metering_1,
-     type="n",xlab="",ylab="Energy sub metering)",)
+     type="n",xlab="",ylab="Energy sub metering",)
 lines(DF2$DateTime,DF2$Sub_metering_1, type="l",col="black")
 lines(DF2$DateTime,DF2$Sub_metering_2, type="l",col="red") 
 lines(DF2$DateTime,DF2$Sub_metering_3, type="l",col="blue") 
